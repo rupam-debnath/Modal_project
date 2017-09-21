@@ -1,0 +1,123 @@
+body {
+    color: #747784;
+
+}
+.weight {
+    font-weight:100;
+}
+.title1 {
+    font-family: 'Lato', sans-serif;
+}
+.text-muted {
+    color: #BCBBBB;
+}
+.text-thin {
+    font-weight: 300;
+}
+.title-size {
+    font-size: 60px;
+}
+.logo {
+    height: 100px;
+    margin-top: 20px;
+}
+@media(max-width: 360px) {
+    .title {
+        font-size: 16px;
+    }
+}
+@media(max-width: 361px) and (max-width: 768px) {
+    .title {
+        font-size: 24px;
+    }
+}
+@media(min-width: 1200px) {
+    .title {
+        font-size: 40px;
+    }
+}
+@media(max-width: 360px) {
+    .sub {
+        font-size: 10px;
+    }
+}
+@media(max-width: 361px) and (max-width: 768px) {
+    .sub {
+        font-size: 14px;
+    }
+}
+@media(min-width: 1200px) {
+    .sub {
+        font-size: 24px;
+    }
+}
+hr {
+    background-color: #BCBBBB;
+    border: none;
+    height: 3px;
+}
+.big {
+    height: 300px;
+    width:100%;
+}
+.im1 {
+    height: 250px;
+    width: 100%;
+}
+.imMOD {
+    height: 300px;
+    width: 100%;
+}
+/*add css*/
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.75);
+    z-index: 100;
+}
+
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+    text-align: center;
+    z-index: 200;
+}
+
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+.pad-text {
+    padding-bottom: 10px;
+    font-weight: 10;
+}
